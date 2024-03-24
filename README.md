@@ -1,4 +1,5 @@
 # ProjectEuler100
+
 freeCodeCamp #ProjectEuler100 challenge
 
 ## 6 simple rules all participants must follow.
@@ -14,4 +15,8 @@ So far more than 700 people have joined the #ProjectEuler100 Discord chatroom.
 
 The #ProjectEuler100 Twitter bot is already up to 300 followers.
 
-[See challenge page](https://www.freecodecamp.org/news/an-update-on-the-projecteuler100-and-awscertified-challenges/)
+## Resources
+
+- [freeCodeCamp ProjectEuler100](https://www.freecodecamp.org/learn/project-euler/#project-euler-problems-1-to-100)
+- [Blog post](https://www.freecodecamp.org/news/an-update-on-the-projecteuler100-and-awscertified-challenges/)
+- [#ProjectEuler100 Twitter bot](https://twitter.com/ProjectEuler100)
