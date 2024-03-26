@@ -1,0 +1,6 @@
+image: gitpod/workspace-full
+
+# Commands that will run on workspace start
+tasks:
+    - name: Setup, Install & Test
+      command: node --test
