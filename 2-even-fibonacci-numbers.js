@@ -3,19 +3,21 @@
 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 By considering the terms in the Fibonacci sequence whose values do not exceed n, find the sum of the even-valued terms. */
 function fiboEvenSum(n) {
-    let sum = 0;
-    let previous = 1;
-    let next = 2;
-  
-    const isEven = (number) => number % 2 === 0;
-    // n = 8
-    while(next <= n) { // 13 <= 8
-      if (isEven(next)) { // true
-        sum += next; // sum = 10
-      }
-      let temp = previous; // temp = 5
-      previous = next; // previous = 8
-      next += temp; // 8 + 5 = 13
-    }
-    return sum;
-  }
+	let sum = 0;
+	let previous = 1;
+	let next = 2;
+
+	const isEven = (number) => number % 2 === 0;
+	// n = 8
+	while (next <= n) {
+		// 13 <= 8
+		if (isEven(next)) {
+			// true
+			sum += next; // sum = 10
+		}
+		let temp = previous; // temp = 5
+		previous = next; // previous = 8
+		next += temp; // 8 + 5 = 13
+	}
+	return sum;
+}

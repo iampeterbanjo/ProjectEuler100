@@ -1,20 +1,24 @@
 {
-  "name": "projecteuler100",
-  "version": "1.0.0",
-  "description": "freeCodeCamp #ProjectEuler100 challenge",
-  "main": "1-multiples-of-3-or-5.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iampeterbanjo/ProjectEuler100.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iampeterbanjo/ProjectEuler100/issues"
-  },
-  "homepage": "https://github.com/iampeterbanjo/ProjectEuler100#readme"
+	"name": "projecteuler100",
+	"version": "1.0.0",
+	"description": "freeCodeCamp #ProjectEuler100 challenge",
+	"main": "1-multiples-of-3-or-5.js",
+	"scripts": {
+		"test": "node --test",
+		"lint": "npx prettier . --write"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iampeterbanjo/ProjectEuler100.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/iampeterbanjo/ProjectEuler100/issues"
+	},
+	"homepage": "https://github.com/iampeterbanjo/ProjectEuler100#readme",
+	"devDependencies": {
+		"prettier": "3.2.5"
+	}
 }
