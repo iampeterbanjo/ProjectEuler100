@@ -4,7 +4,7 @@
 	"description": "freeCodeCamp #ProjectEuler100 challenge",
 	"main": "1-multiples-of-3-or-5.js",
 	"scripts": {
-		"test": "node --test",
+		"test:all": "node --test *.spec.mjs",
 		"lint": "npx prettier . --write"
 	},
 	"repository": {

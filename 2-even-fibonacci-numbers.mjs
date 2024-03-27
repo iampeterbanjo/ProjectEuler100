@@ -2,7 +2,7 @@
 
 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 By considering the terms in the Fibonacci sequence whose values do not exceed n, find the sum of the even-valued terms. */
-function fiboEvenSum(n) {
+export const fiboEvenSum = (n) => {
 	let sum = 0;
 	let previous = 1;
 	let next = 2;
@@ -20,4 +20,4 @@ function fiboEvenSum(n) {
 		next += temp; // 8 + 5 = 13
 	}
 	return sum;
-}
+};
