@@ -5,6 +5,7 @@
 	"main": "1-multiples-of-3-or-5.js",
 	"scripts": {
 		"test": "node --test",
+		"test:watch": "node --test --watch",
 		"lint": "npx prettier . --write"
 	},
 	"repository": {
